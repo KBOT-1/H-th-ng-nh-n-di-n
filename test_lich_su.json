@@ -1,0 +1,14 @@
+[
+    {
+        "ten_bien_bao": "Biển báo dừng (Stop)",
+        "thoi_gian": "2026-06-30 15:05:44",
+        "do_tin_cay": 0.92,
+        "duong_dan_anh": "anh_lichsu/stop_001.jpg"
+    },
+    {
+        "ten_bien_bao": "Biển báo giới hạn tốc độ 60",
+        "thoi_gian": "2026-06-30 15:05:44",
+        "do_tin_cay": 0.81,
+        "duong_dan_anh": "anh_lichsu/toc_do_001.jpg"
+    }
+]

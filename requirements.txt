@@ -1,0 +1,25 @@
+# requirements.txt
+# ---------------------------------------------------------
+# Các thư viện cần thiết cho Hệ thống nhận diện biển báo giao thông
+#
+# Cài đặt bằng lệnh:
+#     pip install -r requirements.txt
+# ---------------------------------------------------------
+
+# Thư viện xử lý ảnh / video, kết nối webcam
+opencv-python>=4.8.0
+
+# Thư viện YOLOv8 - object detection (tự động tải model pretrained
+# khi chạy lần đầu nếu dùng tên model chuẩn như 'yolov8n.pt')
+ultralytics>=8.3.0
+
+# Thư viện xử lý số học, được ultralytics/opencv sử dụng nội bộ
+numpy>=1.24.0
+
+# (Tùy chọn) Nếu muốn tải/sử dụng model từ Roboflow Universe,
+# bỏ comment dòng dưới và cài thêm:
+# roboflow>=1.1.0
+
+# (Tùy chọn) Nếu muốn dùng model/dataset từ HuggingFace Hub,
+# bỏ comment dòng dưới và cài thêm:
+# huggingface_hub>=0.20.0
